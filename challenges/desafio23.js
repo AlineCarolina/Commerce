@@ -3,7 +3,7 @@ db.produtos.updateMany({}, {
        tags: {
             $each: ["combo", "tasty"],
             $sort: 1,
-    },
+        },
     },
 });
 
