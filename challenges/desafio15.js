@@ -1,3 +1,5 @@
+/* 15 - Add the evaluation field to all documents in the collection and make changes to this field. */
+
 db.produtos.updateMany({}, {
     $set: { avaliacao: NumberInt(0) },
 });

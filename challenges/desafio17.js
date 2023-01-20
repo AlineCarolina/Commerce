@@ -1,3 +1,5 @@
+/* 17 - Return the total amount of products in a new collection called summaryProducts. */
+
 db.resumoProdutos.insertOne({
     franquia: "McDonalds",
     totalProdutos: db.produtos.count(),

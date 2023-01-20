@@ -1,3 +1,5 @@
+/* 26 - Add the element contains sodium to the end of the array tags in products where the sodium percentage is greater than 20 and less than 40. */
+
 db.produtos.updateMany({
     valoresNutricionais: {
         $elemMatch: {

@@ -1,3 +1,5 @@
+/* 21 - Remove the last ingredient from the Cheddar McMelt sandwich. */
+
 db.produtos.updateOne({
     nome: "Cheddar McMelt",
 }, {

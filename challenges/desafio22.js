@@ -1,3 +1,5 @@
+/* 22 - Add the number of sales of sandwiches per day of the week. */
+
 db.produtos.updateMany({}, {
     $set: { vendasPorDia: [0, 0, 0, 0, 0, 0, 0] },
 });
