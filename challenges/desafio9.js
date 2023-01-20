@@ -1,3 +1,5 @@
+/* 9 - Return the name of all snacks that have calories below 500. */
+
 db.produtos.find({
     valoresNutricionais: {
         $elemMatch: {
