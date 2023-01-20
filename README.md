@@ -23,7 +23,7 @@ To run the project locally:
 
 1. Clone the repository
 ```
-$ git clone 
+$ git clone git@github.com:AlineCarolina/Commerce.git
 ```
 2. Install dependencies
 ```
